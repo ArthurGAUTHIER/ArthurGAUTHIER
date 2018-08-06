@@ -1,0 +1,7 @@
+def acronymize(sentence)
+  acronym = ""
+  sentence.split.each { |word| acronym += word[0] }
+  acronym.upcase
+end
+
+puts acronymize("Down to fuck")
